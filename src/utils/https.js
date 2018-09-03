@@ -19,7 +19,7 @@ axiosInstance.interceptors.response.use(
 		if (error.response.status === 401) {
 			let res = await axios({
 				method: 'post',
-				 url: 'https://sentry-replica.herokuapp.com/api/refresh',
+				 url: 'https://sentry-replica.herokuapp.com/api/auth/refresh',
 				//url: 'http://127.0.0.1:8848/api/',
 				headers: {
 					'Content-Type': 'application/json',
