@@ -420,6 +420,7 @@ td {
 }
 #message-id a {
   color: silver;
+  text-align: center;
 }
 
 #message-id a:hover {
